@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       redirect_to records_path
     else
       flash[:alert] = "There was a problem signing in. Please try again."
-      redirect_to signin_path
+      redirect_to login_path
     end
   end
 
