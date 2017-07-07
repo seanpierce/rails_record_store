@@ -23,7 +23,7 @@
       <hr>
       <%= link_to "Edit Item", edit_record_path(@record) %>
       <br>
-      <%= link_to "Delete Item", edit_record_path(@record) %>
+      <%= link_to "Delete Item", record_path(@record), :data => {:confirm => "Are you sure?", :method => "delete"} %></li>
     <% end %>
   <% end %>
 </div>

@@ -34,6 +34,13 @@ class RecordsController < ApplicationController
     end
   end
 
+  def destroy
+    if Record.find(params[:id]).destroy
+      flash[:notice] = "Item successfully deleted!"
+      redirect_to records_path
+    end
+  end
+
 
   private
     def record_params
