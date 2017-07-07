@@ -1,7 +1,10 @@
 <div id="records">
   <% @records.each do |record| %>
-    <div class="record" style="background-image: url(<%= record.image %>)">
-
-    </div>
+    <a href="<%= record_path(record) %>">
+      <div class="record" style="background-image: url(<%= record.image %>)">
+        <div class="record-darken"></div>
+        <figcaption><em><%= record.title %></em><br><strong><%= record.artist %></strong></figcaption>
+      </div>
+    </a>
   <% end %>
 </div>

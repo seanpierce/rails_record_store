@@ -65,6 +65,7 @@ body {
   width: 150px;
   height: 150px;
   display: flex;
+  position: relative;
   margin-bottom: 1em;
   margin-right: 1em;
 
@@ -72,6 +73,33 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  &:hover figcaption {
+    opacity: 1;
+  }
+  &:hover .record-darken {
+    opacity: 1;
+  }
+  figcaption {
+    opacity: 0;
+    transition: all 0.25s;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  .record-darken {
+    transition: all 0.25s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+  }
 }
 
 
