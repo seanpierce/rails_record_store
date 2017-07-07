@@ -19,6 +19,13 @@ h1, h2, h3, h4, h5 {
   color: red;
 }
 
+.blue {
+  color: #428bca;
+  &:hover {
+    color: darken(#428bca,15%);
+  }
+}
+
 body {
   margin: 2em 0;
 }

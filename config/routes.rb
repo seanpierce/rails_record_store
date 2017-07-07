@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   # user routes   get '/signup' => 'users#new'
   get '/signup' => 'users#new'
+  get '/user' => 'users#show'
   post '/users' => 'users#create'
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
