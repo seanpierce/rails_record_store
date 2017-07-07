@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+#notice {
+  color: green;
+}
+
+#alert {
+  color: red;
+}
+
 body {
   margin: 2em 0;
 }
@@ -62,7 +75,7 @@ body {
 #records {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 .record {
   width: 150px;
@@ -109,10 +122,6 @@ body {
 
 #record-detail-container {
   .row {
-    h3 {
-      padding-top: 0;
-      margin-top: 0;
-    }
     .detail-img img {
       width: 100%;
     }
@@ -120,6 +129,27 @@ body {
 }
 
 
+// ------------------------------------------------ form styles
+input {
+  display: block;
+  &:focus {
+outline: none;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: none;
+  border-bottom: solid 1px #333;
+  width: 100%;
+}
+
+input[type="submit"] {
+  margin-top: 1em;
+  background-color: white;
+  border: solid 1px #333;
+}
 
 
 

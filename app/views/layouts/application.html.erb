@@ -22,12 +22,12 @@
           <div class="my-nav">
             <ul>
               <li><a href="<%= root_path %>"><strong>Rails Record Store</strong></a></li>
-              <li>Catalog</li>
+              <li><a href="<%= records_path %>">Catalog</a></li>
               <li>Username</li>
               <li>Cart 0</li>
-              <li>Log In</li>
-              <li>Sign Up</li>
-              <li>Log Out</li>
+              <li><%= link_to "Log In", login_path %></li>
+              <li><%= link_to "Sign Up", signup_path %></li>
+              <li><%= link_to "Log Out", logout_path %></li>
             </ul>
           </div>
         </div>

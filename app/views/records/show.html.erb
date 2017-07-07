@@ -9,6 +9,7 @@
       <% else %>
         <p><em>No description available</em></p>
       <% end %>
+      <%= link_to "back to catalog", records_path %>
     </div>
     <div class="col-md-6 detail-img">
       <%= image_tag(@record.image) %>
