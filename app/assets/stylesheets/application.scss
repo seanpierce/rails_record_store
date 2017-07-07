@@ -1,3 +1,51 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  margin: 2em 0;
+}
+
+#index-div {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: asset-url("record-store.jpg");
+  #darken {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+  }
+  h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    color: white;
+    z-index: 10;
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.my-nav {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}

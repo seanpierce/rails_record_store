@@ -8,7 +8,31 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <% unless !current_page?(root_path) %>
+    <div id="index-div">
+      <div id="darken"></div>
+      <h1><%= link_to "Rails Record Store", records_path %></h1>
+    </div>
+  <% end %>
   <body>
-    <%= yield %>
+    <% unless current_page?(root_path) %>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="my-nav">
+            <ul>
+              <li>Home</li>
+              <li>Link</li>
+              <li>Link</li>
+              <li>Link</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+    <% end %>
   </body>
 </html>
