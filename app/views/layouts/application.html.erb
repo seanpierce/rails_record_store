@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsRecordStore</title>
+    <title>Rails Record Store</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -31,6 +31,8 @@
           </div>
         </div>
         <div class="col-sm-9">
+          <p id="notice"><%= notice %></p>
+          <p id="alert"><%= alert %></p>
           <%= yield %>
         </div>
       </div>
