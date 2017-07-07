@@ -1,0 +1,21 @@
+<%= form_for @record do |f| %>
+  <%= f.label :artist %>
+  <%= f.text_field :artist, autofocus: true %>
+  <br>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <br>
+  <%= f.label :category %>
+  <%= f.text_field :category %>
+  <br>
+  <%= f.label :cost %>
+  <%= f.number_field :cost %>
+  <br>
+  <%= f.label :image %>
+  <%= f.text_field :image %>
+  <br>
+  <%= f.label :description %>
+  <%= f.text_area :description %>
+  <br>
+  <%= f.submit "Submit" %>
+<% end %>

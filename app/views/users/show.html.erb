@@ -1,0 +1,13 @@
+<strong><%= current_user.username %></strong>
+<em>Active member for <%= time_ago_in_words(current_user.created_at) %></em>
+
+<br><br>
+<strong>My reviews</strong>
+<em>No reviews</em>
+
+<br><br>
+<strong>My transactions</strong>
+<em>No transactions</em>
+
+<br><br>
+<%= link_to "Admin Panel", admin_path if current_user && current_user.admin == true %>

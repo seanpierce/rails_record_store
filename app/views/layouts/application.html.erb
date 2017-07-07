@@ -23,8 +23,7 @@
             <ul>
               <li><a href="<%= root_path %>"><strong>Rails Record Store</strong></a></li>
               <li><a href="<%= records_path %>">Catalog</a></li>
-              <li class="blue"><%= link_to current_user.username, user_path if current_user %></li>
-              <li class="blue"><%= link_to "Admin", admin_path if current_user && current_user.admin == true %></li>
+              <li class="blue"><%= link_to current_user.username, user_path(current_user) if current_user %></li>
               <li><%= link_to "Cart", login_path  if current_user %></li>
               <li><%= link_to "Log In", login_path  if !current_user %></li>
               <li><%= link_to "Sign Up", signup_path if !current_user %></li>

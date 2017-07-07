@@ -2,18 +2,18 @@ Record.destroy_all
 User.destroy_all
 
 User.create!(
-  username: "Super User!",
-  email: "admin@admin.com",
-  password: "admin",
-  password_confirmation: "admin",
+  username: "seanpierce",
+  email: "sumler.sean@gmail.com",
+  password: "1234567",
+  password_confirmation: "1234567",
   admin: true
   )
 
 User.create!(
-  username: "Regular User",
-  email: "user@user.com",
-  password: "user",
-  password_confirmation: "user"
+  username: "testuser",
+  email: "test@email.com",
+  password: "1234567",
+  password_confirmation: "1234567"
   )
 
 20.times do |i|

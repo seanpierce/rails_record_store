@@ -1,7 +1,7 @@
 class RecordsController < ApplicationController
 
   def index
-    @records = Record.all
+    @records = Record.all.order(:updated_at).reverse
   end
 
   def show
@@ -16,6 +16,21 @@ class RecordsController < ApplicationController
     else
       flash[:alert] = "Something went wrong, please try again."
       render :admin
+    end
+  end
+
+  def edit
+   @record = Record.find(params[:id])
+  end
+
+  def update
+    @record = Record.find(params[:id])
+    if @record.update(record_params)
+      flash[:notice] = "Product successfully updated!"
+      redirect_to record_path(@record)
+    else
+      flash[:alert] = "Something went wrong, please try again."
+      render :edit
     end
   end
 

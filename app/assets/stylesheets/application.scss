@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
+strong {
+  display: block;
+}
+
 #notice {
   color: green;
 }
@@ -68,6 +72,7 @@ body {
 }
 
 .my-nav {
+  margin-top: 0.5em; // to even it out with bootstrap margin/padding top on columns
   ul {
     list-style: none;
     padding: 0;
@@ -109,6 +114,7 @@ body {
     position: absolute;
     padding: 5px;
     text-align: center;
+    width: 100%;
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
