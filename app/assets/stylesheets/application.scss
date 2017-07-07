@@ -52,6 +52,9 @@ body {
     list-style: none;
     padding: 0;
   }
+  a {
+    color: inherit;
+  }
 }
 
 // ----------------------------------------- catalog styles
@@ -102,9 +105,19 @@ body {
   }
 }
 
+// ------------------------------------- record detail page styles
 
-
-
+#record-detail-container {
+  .row {
+    h3 {
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .detail-img img {
+      width: 100%;
+    }
+  }
+}
 
 
 

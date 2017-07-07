@@ -4,7 +4,7 @@ Record.destroy_all
   record = Record.create!(
     artist: Faker::Name.name,
     title: Faker::Name.title,
-    description: Faker::Name.title,
+    description: Faker::Hipster.sentences.join(' '),
     category: "Vinyl",
     cost: Faker::Commerce.price,
     image: "https://assets.boomkat.com/spree/products/305731/large/sutro_1.jpg"
