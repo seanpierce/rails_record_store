@@ -15,14 +15,33 @@
       <% else %>
         <p><em>No description available</em></p>
       <% end %>
-      <%= link_to "back to catalog", records_path %>
+      <%= link_to "Add to cart", records_path %>
+      <br>
+      <%= link_to "Write a review", records_path %>
+      <br>
+      <%= link_to "Back to catalog", records_path %>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      <strong>Reviews for <%= @record.title %> by <%= @record.artist %></strong>
+      <% if @record.reviews.any? %>
+        <ul>
+          <% @record.reviews.each do |review| %>
+            <li><%= truncate(review.content, length: 30) %></li>
+          <% end %>
+        </ul>
+      <% else %>
+        <em>this record has no reviews</em>
+      <% end %>
     </div>
   </div>
   <% if current_user %>
     <% if current_user.admin == true %>
       <hr>
-      <%= link_to "Edit Item", edit_record_path(@record) %>
-      <br>
+      Admin:
+      <%= link_to "Edit Item", edit_record_path(@record) %>,
       <%= link_to "Delete Item", record_path(@record), :data => {:confirm => "Are you sure?", :method => "delete"} %></li>
     <% end %>
   <% end %>

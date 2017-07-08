@@ -1,0 +1,7 @@
+<%= render "layouts/errors", :object => @review %>
+
+<%= form_for [@record, @review] do |f| %>
+  <%= f.label :content, "Write your review below" %>
+  <%= f.text_area :content %>
+  <%= f.submit "Submit" %>
+<% end %>
