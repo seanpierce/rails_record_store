@@ -1,0 +1,18 @@
+<h3><%= @review.user.username %>'s review for</h3>
+<%= @review.record.title %> - <%= @review.record.artist %>
+<br>
+<em><%= time_ago_in_words(@review.created_at) %> ago</em>
+<br>
+<br>
+
+<p><%= @review.content %><p>
+
+<hr>
+<%= link_to "Back to record", record_path(@review.record) %>
+<br>
+<%= link_to "Back to catalog", records_path %>
+
+<div id="admin-div">
+  Admin: 
+  <%= link_to "Delete this review" %>
+</div>

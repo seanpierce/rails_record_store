@@ -2,12 +2,22 @@
 <em>Active member for <%= time_ago_in_words(current_user.created_at) %></em>
 
 <br><br>
-<strong>My reviews</strong>
-<em>No reviews</em>
-
-<br><br>
-<strong>My transactions</strong>
-<em>No transactions</em>
-
-<br><br>
-<%= link_to "Admin Panel", admin_path if current_user && current_user.admin == true %>
+<div class="row">
+  <div class="col-md-6">
+    <strong>My reviews</strong>
+    <% if current_user.reviews.any? %>
+    <ul class="no-style">
+      <% current_user.reviews.each do |review| %>
+      <li class="li-underline"><%= link_to truncate(review.content, :length => 30), record_review_path(review.record, review) %><span class="right light"><%= time_ago_in_words(review.created_at) %> ago</span></li>
+      <% end %>
+    </ul>
+    <% else %>
+    <em>No reviews</em>
+    <% end %>
+    <br><br>
+  </div>
+  <div class="col-md-6">
+    <strong>My transactions</strong>
+    <em>No transactions</em>
+  </div>
+</div>

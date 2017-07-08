@@ -2,7 +2,9 @@ Rails.application.routes.draw do
 
   root to: 'pages#home'
 
-  resources :records
+  resources :records do
+    resources :reviews
+  end
 
   # user routes   get '/signup' => 'users#new'
   resources :users

@@ -30,6 +30,31 @@ strong {
   }
 }
 
+.right {
+  float: right;
+}
+
+.light {
+  color: lighten(#333, 25%);
+}
+
+.no-style {
+  list-style: none;
+  padding: 0;
+}
+
+.li-underline {
+  border-bottom: solid 1px #f3f3f3;
+}
+
+#admin-div {
+  width: 100%;
+  background-color: #f3f3f3;
+  margin-top: 2em;
+  border: solid 1px #333;;
+  padding: 0.5em;
+}
+
 body {
   margin: 2em 0;
 }

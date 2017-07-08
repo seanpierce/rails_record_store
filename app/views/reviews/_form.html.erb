@@ -1,7 +1,13 @@
+<h3>New review for</h3>
+<%= @record.title %> - <%= @record.artist %>
+<br>
+<br>
+
 <%= render "layouts/errors", :object => @review %>
 
 <%= form_for [@record, @review] do |f| %>
-  <%= f.label :content, "Write your review below" %>
+  <%= f.hidden_field :user_id, value: current_user.id %>
+  <%= f.label :content %>
   <%= f.text_area :content %>
   <%= f.submit "Submit" %>
 <% end %>
