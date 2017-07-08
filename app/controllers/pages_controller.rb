@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  before_action :authorize, only: [:admin]
+  before_action :authorize_admin, only: [:admin]
 
   def home
     @records = Record.all

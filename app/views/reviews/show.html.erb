@@ -12,7 +12,10 @@
 <br>
 <%= link_to "Back to catalog", records_path %>
 
-<div id="admin-div">
-  Admin: 
-  <%= link_to "Delete this review" %>
-</div>
+
+<% if current_user.admin == true %>
+  <div id="admin-div">
+    Admin:
+    <%= link_to "Delete this review", record_review_path(@review.record, @review), :data => {:confirm => "Are you sure?", :method => "delete"} %>
+  </div>
+<% end %>

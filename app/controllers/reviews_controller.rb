@@ -1,5 +1,7 @@
 class ReviewsController < ApplicationController
 
+  before_action :authorize_user, only: [:new]
+
   def show
     @review = Review.find(params[:id])
     @product = @review.record
@@ -19,6 +21,14 @@ class ReviewsController < ApplicationController
     else
       flash[:alert] = "Something went wrong, please try again."
       redirect_to new_record_review_path(@record)
+    end
+  end
+
+  def destroy
+    @record = Review.find(params[:id]).record
+    if Review.find(params[:id]).destroy
+      flash[:notice] = "Review successfully removed!"
+     redirect_to record_path(@record)
     end
   end
 

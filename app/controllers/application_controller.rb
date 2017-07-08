@@ -8,10 +8,17 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def authorize
+  def authorize_admin
     if !current_user || current_user.admin != true
       flash[:alert] = "You aren't authorized to visit that page."
-      redirect_to records_path
+      redirect_back(fallback_location: root_path)
+    end
+  end
+
+  def authorize_user
+    if !current_user
+      flash[:alert] = "Please log in to access this page"
+      redirect_back(fallback_location: root_path)
     end
   end
 

@@ -15,7 +15,7 @@
       <% else %>
         <p><em>No description available</em></p>
       <% end %>
-      <%= link_to "Add to cart", records_path %>
+      <a href="<%= records_path %>" class="cart">Add to cart</a>
       <br>
       <%= link_to "Back to catalog", records_path %>
     </div>
