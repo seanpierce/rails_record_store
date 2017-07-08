@@ -1,8 +1,3 @@
-<h3>New review for</h3>
-<%= @record.title %> - <%= @record.artist %>
-<br>
-<br>
-
 <%= render "layouts/errors", :object => @review %>
 
 <%= form_for [@record, @review] do |f| %>
