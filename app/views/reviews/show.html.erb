@@ -11,6 +11,10 @@
 <%= link_to "Back to record", record_path(@review.record) %>
 <br>
 <%= link_to "Back to catalog", records_path %>
+<br>
+<%= link_to "Edit my review", records_path if current_user.id == @review.user_id %>
+<br>
+<%= link_to "Delete my review", record_review_path(@review.record, @review), :data => {:confirm => "Are you sure?", :method => "delete"} %>
 
 
 <% if current_user.admin == true %>
