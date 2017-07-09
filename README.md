@@ -38,6 +38,16 @@ $ rails s
 ````
 Visit <a href="http://localhost:3000/">localhost:3000</a>
 
+
+### Usage
+You can log in using the credentials provided below, or sign up with your own information.
+
+| Type | Email | Password |
+| ---- | ----- | -------- |
+| Basic | user@email.com | 1234567 |
+| Admin | admin@email.com | 1234567 |
+
+
 ### Testing
 This application is tested using <a href="http://rspec.info/">rspec</a>. 92.33% of the application is successfully covered according to <a href="https://github.com/colszowka/simplecov">simplecov</a>
 
