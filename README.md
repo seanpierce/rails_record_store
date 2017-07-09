@@ -2,15 +2,15 @@
 
 Rails Record store is a ruby on rails application which demonstrates the core functionality of an online record store.
 
-Anonymous users can:
+**Anonymous Users** can:
 * Browse the catalog
 
-Authenticated users can:
+**Authenticated Users** can:
 * Browse the catalog
 * Add a review to a record
 * Edit or delete their own reviews
 
-Authenticated Admins can:
+**Authenticated Admins** can:
 * Browse the catalog
 * Add a new record to the catalog
 * Edit or delete a record
@@ -37,6 +37,9 @@ $ rails db:setup
 $ rails s
 ````
 Visit <a href="http://localhost:3000/">localhost:3000</a>
+
+### Testing
+This application is tested using <a href="http://rspec.info/">rspec</a>. 92.33% of the application is successfully covered according to <a href="https://github.com/colszowka/simplecov">simplecov</a>
 
 ### Author
 Sean Pierce
