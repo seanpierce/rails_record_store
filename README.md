@@ -17,15 +17,15 @@ Rails Record Store is a <a href="http://rubyonrails.org/">ruby on rails</a> appl
 * Add a review to a record
 * Delete any review
 
+| Basic user view | Admin view |
+| --------------- | ---------- |
+| ![](/public/user.gif) | ![](/public/admin_2.gif)|
+
 ### Dependencies
 * <a href="https://www.postgresql.org/">postgresql</a>
 * <a href="https://www.ruby-lang.org/en/">ruby</a> 2.4.1 or greater
 * <a href="http://rubyonrails.org/">rails</a> 5.1.2 or greater
 * <a href="https://bundler.io/">bundler</a>
-
-| Basic user view | Admin view |
-| --------------- | ---------- |
-| ![](/public/user.gif) | ![](/public/admin_2.gif)|
 
 ### Installation
 ````
