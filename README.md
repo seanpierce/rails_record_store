@@ -1,4 +1,4 @@
-# <img src="/public/record.png" style="height:25px"> Rails Record Store
+# <img src="/public/record-small.png"> Rails Record Store
 
 Rails Record store is a ruby on rails application which demonstrates the core functionality of an online record store.
 
