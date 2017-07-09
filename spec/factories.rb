@@ -18,20 +18,18 @@ FactoryGirl.define do
     avatar File.join(album_art.sample)
   end
 
-  factory :admin_user do
+  factory :user do
     username "seanpierce"
     email "sean@test.com"
     password "1234567"
     password_confirmation "1234567"
-    admin true
+    admin nil
   end
 
-  factory :basic_user do
-    username "basic_user"
-    email "test@test.com"
-    password "1234567"
-    password_confirmation "1234567"
-    admin false
+  factory :review do
+    user_id 1
+    record_id 1
+    content "Dang, what a great record"
   end
 
 end

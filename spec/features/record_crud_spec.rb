@@ -3,6 +3,7 @@ require 'rails_helper'
 describe 'the lifecycle of a record' do
 
   record = FactoryGirl.create(:record)
+
   admin = User.create!(
             username: "seanpierce",
             email: "sean@email.com",
@@ -10,13 +11,7 @@ describe 'the lifecycle of a record' do
             password_confirmation: "1234567",
             admin: true
           )
-  basic_user = User.create!(
-                username: "basic_user",
-                email: "test.@email.com",
-                password: "1234567",
-                password_confirmation: "1234567",
-                admin: false
-              )
+
 
   it "logs in as admin" do
     # log in block
