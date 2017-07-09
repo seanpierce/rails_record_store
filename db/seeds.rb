@@ -26,16 +26,16 @@ album_art = [
 ]
 
 User.create!(
-  username: "seanpierce",
-  email: "sumler.sean@gmail.com",
+  username: "record_store_owner",
+  email: "admin@email.com",
   password: "1234567",
   password_confirmation: "1234567",
   admin: true
 )
 
 User.create!(
-  username: "testuser",
-  email: "test@email.com",
+  username: "test_user",
+  email: "user@email.com",
   password: "1234567",
   password_confirmation: "1234567"
 )
