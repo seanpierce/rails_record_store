@@ -43,7 +43,7 @@ User.create!(
     description: Faker::Hipster.sentences.join(' '),
     category: "Vinyl",
     cost: Faker::Commerce.price,
-    image: album_art.sample
+    avatar: File.join(album_art.sample)
   )
   rand(2...6).times do |i|
     review = Review.create!(
