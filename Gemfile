@@ -21,6 +21,8 @@ gem 'devise', '~> 4.3'
 gem 'bcrypt'
 gem "rb-fsevent", "0.10.2"
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
+gem "github-linguist"
+gem "nokogiri"
 
 
 group :development, :test do

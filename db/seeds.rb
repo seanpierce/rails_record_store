@@ -49,7 +49,7 @@ User.create!(
     cost: Faker::Commerce.price,
     avatar: File.join(album_art.sample)
   )
-  rand(2...6).times do |i|
+  rand(1...3).times do |i|
     review = Review.create!(
       content: Faker::Hipster.sentences.join(' '),
       user_id: User.all.sample.id,
