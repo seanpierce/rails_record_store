@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/seanpierce/Desktop/rails_record_store/spec/features/record_crud_spec.rb": [
+      "/Users/seanpierce/rails_record_store/spec/features/record_crud_spec.rb": [
         1,
         null,
         1,
@@ -78,7 +78,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/spec/rails_helper.rb": [
+      "/Users/seanpierce/rails_record_store/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -150,14 +150,14 @@
         1,
         1
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/environment.rb": [
+      "/Users/seanpierce/rails_record_store/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/application.rb": [
+      "/Users/seanpierce/rails_record_store/config/application.rb": [
         1,
         null,
         1,
@@ -190,12 +190,12 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/boot.rb": [
+      "/Users/seanpierce/rails_record_store/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/environments/test.rb": [
+      "/Users/seanpierce/rails_record_store/config/environments/test.rb": [
         1,
         null,
         null,
@@ -239,7 +239,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/initializers/application_controller_renderer.rb": [
+      "/Users/seanpierce/rails_record_store/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -247,7 +247,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/initializers/assets.rb": [
+      "/Users/seanpierce/rails_record_store/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -263,7 +263,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/initializers/backtrace_silencers.rb": [
+      "/Users/seanpierce/rails_record_store/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -272,20 +272,20 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/initializers/cookies_serializer.rb": [
+      "/Users/seanpierce/rails_record_store/config/initializers/cookies_serializer.rb": [
         null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/initializers/inflections.rb": [
+      "/Users/seanpierce/rails_record_store/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/seanpierce/rails_record_store/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -303,13 +303,13 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/initializers/mime_types.rb": [
+      "/Users/seanpierce/rails_record_store/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/initializers/wrap_parameters.rb": [
+      "/Users/seanpierce/rails_record_store/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -325,7 +325,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/config/routes.rb": [
+      "/Users/seanpierce/rails_record_store/config/routes.rb": [
         1,
         null,
         1,
@@ -347,7 +347,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/controllers/application_controller.rb": [
+      "/Users/seanpierce/rails_record_store/app/controllers/application_controller.rb": [
         1,
         1,
         1,
@@ -374,39 +374,39 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/helpers/application_helper.rb": [
+      "/Users/seanpierce/rails_record_store/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/helpers/pages_helper.rb": [
+      "/Users/seanpierce/rails_record_store/app/helpers/pages_helper.rb": [
         1,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/helpers/records_helper.rb": [
+      "/Users/seanpierce/rails_record_store/app/helpers/records_helper.rb": [
         1,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/helpers/reviews_helper.rb": [
+      "/Users/seanpierce/rails_record_store/app/helpers/reviews_helper.rb": [
         1,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/helpers/users_helper.rb": [
+      "/Users/seanpierce/rails_record_store/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/channels/application_cable/channel.rb": [
+      "/Users/seanpierce/rails_record_store/app/channels/application_cable/channel.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/channels/application_cable/connection.rb": [
+      "/Users/seanpierce/rails_record_store/app/channels/application_cable/connection.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/controllers/pages_controller.rb": [
+      "/Users/seanpierce/rails_record_store/app/controllers/pages_controller.rb": [
         1,
         null,
         1,
@@ -421,7 +421,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/controllers/records_controller.rb": [
+      "/Users/seanpierce/rails_record_store/app/controllers/records_controller.rb": [
         1,
         null,
         1,
@@ -473,7 +473,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/controllers/reviews_controller.rb": [
+      "/Users/seanpierce/rails_record_store/app/controllers/reviews_controller.rb": [
         1,
         null,
         1,
@@ -530,7 +530,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/controllers/sessions_controller.rb": [
+      "/Users/seanpierce/rails_record_store/app/controllers/sessions_controller.rb": [
         1,
         null,
         1,
@@ -552,7 +552,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/controllers/users_controller.rb": [
+      "/Users/seanpierce/rails_record_store/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -581,22 +581,22 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/jobs/application_job.rb": [
+      "/Users/seanpierce/rails_record_store/app/jobs/application_job.rb": [
         1,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/mailers/application_mailer.rb": [
+      "/Users/seanpierce/rails_record_store/app/mailers/application_mailer.rb": [
         1,
-        1,
-        1,
-        null
-      ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/models/record.rb": [
+      "/Users/seanpierce/rails_record_store/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/seanpierce/rails_record_store/app/models/record.rb": [
         1,
         null,
         1,
@@ -607,7 +607,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/models/review.rb": [
+      "/Users/seanpierce/rails_record_store/app/models/review.rb": [
         1,
         null,
         1,
@@ -617,7 +617,7 @@
         1,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/app/models/user.rb": [
+      "/Users/seanpierce/rails_record_store/app/models/user.rb": [
         1,
         null,
         1,
@@ -642,7 +642,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/spec/factories.rb": [
+      "/Users/seanpierce/rails_record_store/spec/factories.rb": [
         1,
         null,
         1,
@@ -679,7 +679,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/spec/features/review_spec.rb": [
+      "/Users/seanpierce/rails_record_store/spec/features/review_spec.rb": [
         1,
         null,
         1,
@@ -746,7 +746,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/spec/models/record_spec.rb": [
+      "/Users/seanpierce/rails_record_store/spec/models/record_spec.rb": [
         1,
         null,
         1,
@@ -761,7 +761,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/spec/models/review_spec.rb": [
+      "/Users/seanpierce/rails_record_store/spec/models/review_spec.rb": [
         1,
         null,
         1,
@@ -772,7 +772,7 @@
         null,
         null
       ],
-      "/Users/seanpierce/Desktop/rails_record_store/spec/models/user_spec.rb": [
+      "/Users/seanpierce/rails_record_store/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -787,6 +787,6 @@
         null
       ]
     },
-    "timestamp": 1499619353
+    "timestamp": 1499626876
   }
 }

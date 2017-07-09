@@ -3,7 +3,7 @@
     <a href="<%= record_path(record) %>">
       <div class="record" style="background-image: url(<%= record.avatar.url %>)">
         <div class="record-darken"></div>
-        <figcaption><em><%= record.title %></em><br><strong><%= record.artist %></strong></figcaption>
+        <figcaption><em><%= record.title %></em><br><strong><%= record.artist %></strong><br>$<%= record.cost %></figcaption>
       </div>
     </a>
   <% end %>
