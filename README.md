@@ -25,7 +25,7 @@ Rails Record Store is a <a href="http://rubyonrails.org/">ruby on rails</a> appl
 
 | Basic user view | Admin view |
 | --------------- | ---------- |
-| ![](/public/user.gif) | ![](/public/admin.gif)|
+| ![](/public/user.gif) | ![](/public/admin_2.gif)|
 
 ### Installation
 ````
