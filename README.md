@@ -1,6 +1,6 @@
 # <img src="/public/record-small.png"> Rails Record Store
 
-Rails Record store is a ruby on rails application which demonstrates the core functionality of an online record store.
+Rails Record Store is a <a href="http://rubyonrails.org/">ruby on rails</a> application which demonstrates the core functionality of an online record store.
 
 **Anonymous Users** can:
 * Browse the catalog
