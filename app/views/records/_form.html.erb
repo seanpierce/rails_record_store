@@ -11,7 +11,7 @@
   <%= f.label :cost %>
   <%= f.number_field :cost %>
   <br>
-  <div id="image-upload-button" onclick="document.getElementById('avatar-button').click();">Upload Image</div>
+  <div id="image-upload-button" onclick="document.getElementById('avatar-button').click();">Upload Image</div> <span id="filename" class="green"></span>
   <br>
   <%= f.file_field :avatar, style: "display:none;", id: "avatar-button" %>
   <br>
