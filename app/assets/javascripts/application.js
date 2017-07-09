@@ -18,7 +18,7 @@
 
 // display file name next to custom file upload button
 $(function(){
-  $('input[id="avatar-button"]').change(function(){
+  $('#avatar-button').change(function(){
     var filename = $(this).val();
     $('#filename').text(filename.slice(12));
   });

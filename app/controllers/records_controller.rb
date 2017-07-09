@@ -26,7 +26,7 @@ class RecordsController < ApplicationController
   def update
     @record = Record.find(params[:id])
     if @record.update(record_params)
-      flash[:notice] = "Product successfully updated!"
+      flash[:notice] = "Record successfully updated!"
       redirect_to record_path(@record)
     else
       flash[:alert] = "Something went wrong, please try again."

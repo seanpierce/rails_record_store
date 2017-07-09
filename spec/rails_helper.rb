@@ -54,6 +54,9 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  # spec/support/factory_girl.rb
+  config.include FactoryGirl::Syntax::Methods
 end
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
@@ -61,3 +64,7 @@ Shoulda::Matchers.configure do |config|
     with.library :rails
   end
 end
+
+Record.destroy_all
+User.destroy_all
+Review.destroy_all

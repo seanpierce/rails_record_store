@@ -1,5 +1,6 @@
 Record.destroy_all
 User.destroy_all
+Review.destroy_all
 
 album_art = [
   "https://assets.boomkat.com/spree/products/432760/large/azioni-dist_preview.jpg",
@@ -18,7 +19,10 @@ album_art = [
   "https://assets.boomkat.com/spree/products/428237/large/Screen_Shot_2017-06-08_at_11.42.39.png",
   "https://assets.boomkat.com/spree/products/425789/large/OMSOLOW001LP_CU.jpg",
   "https://assets.boomkat.com/spree/products/431460/large/BW.jpg",
-  "https://assets.boomkat.com/spree/products/317177/large/190374089432.jpg"
+  "https://assets.boomkat.com/spree/products/317177/large/190374089432.jpg",
+  "https://assets.boomkat.com/spree/products/75446/large/original.jpg",
+  "https://assets.boomkat.com/spree/products/35263/large/original.jpg",
+  "https://assets.boomkat.com/spree/products/41073/large/original.jpg"
 ]
 
 User.create!(
